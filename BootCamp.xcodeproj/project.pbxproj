@@ -35,6 +35,8 @@
 		E9D46D552AEADBF300D111C1 /* forEachBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D46D532AEADBF300D111C1 /* forEachBootcamp.swift */; };
 		E9E40E812AF0CA8300D0EB1E /* ExtractSubViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E40E802AF0CA8300D0EB1E /* ExtractSubViewBootcamp.swift */; };
 		E9E40E822AF0CA8300D0EB1E /* ExtractSubViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E40E802AF0CA8300D0EB1E /* ExtractSubViewBootcamp.swift */; };
+		E9E40E842AF0DFB200D0EB1E /* bindingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E40E832AF0DFB200D0EB1E /* bindingBootcamp.swift */; };
+		E9E40E852AF0DFB200D0EB1E /* bindingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E40E832AF0DFB200D0EB1E /* bindingBootcamp.swift */; };
 		E9E69DA12AE9A0890023CBE7 /* paddingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E69DA02AE9A0890023CBE7 /* paddingBootcamp.swift */; };
 		E9E69DA22AE9A0890023CBE7 /* paddingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E69DA02AE9A0890023CBE7 /* paddingBootcamp.swift */; };
 		E9FBBE5E2AEA8EDD009489A3 /* init_enums_Bootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FBBE5D2AEA8EDC009489A3 /* init_enums_Bootcamp.swift */; };
@@ -61,6 +63,7 @@
 		E9CBB4822AE936850080BD6D /* StacksVHZ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksVHZ.swift; sourceTree = "<group>"; };
 		E9D46D532AEADBF300D111C1 /* forEachBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forEachBootcamp.swift; sourceTree = "<group>"; };
 		E9E40E802AF0CA8300D0EB1E /* ExtractSubViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractSubViewBootcamp.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		E9E40E832AF0DFB200D0EB1E /* bindingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bindingBootcamp.swift; sourceTree = "<group>"; };
 		E9E69DA02AE9A0890023CBE7 /* paddingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paddingBootcamp.swift; sourceTree = "<group>"; };
 		E9FBBE5D2AEA8EDC009489A3 /* init_enums_Bootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = init_enums_Bootcamp.swift; sourceTree = "<group>"; };
 		E9FF0FB72AECFE7D00B0834B /* safeareaBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = safeareaBootcamp.swift; sourceTree = "<group>"; };
@@ -113,6 +116,7 @@
 				E9A1C4232AED542E00292D37 /* FuncViewExtraction.swift */,
 				E9BC40FF2AE8BF02001EB815 /* Assets.xcassets */,
 				E9E40E802AF0CA8300D0EB1E /* ExtractSubViewBootcamp.swift */,
+				E9E40E832AF0DFB200D0EB1E /* bindingBootcamp.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -239,6 +243,7 @@
 				E9BFEC1C2AEB857900936621 /* ScrollViewBootcamp.swift in Sources */,
 				E9BC410F2AE8BF02001EB815 /* colorGradient.swift in Sources */,
 				E9FBBE5E2AEA8EDD009489A3 /* init_enums_Bootcamp.swift in Sources */,
+				E9E40E842AF0DFB200D0EB1E /* bindingBootcamp.swift in Sources */,
 				E9CBB4802AE921260080BD6D /* backgroundandoverlay.swift in Sources */,
 				E9FF0FB82AECFE7D00B0834B /* safeareaBootcamp.swift in Sources */,
 				E9BC410D2AE8BF02001EB815 /* BootCampApp.swift in Sources */,
@@ -262,6 +267,7 @@
 				E9BFEC1D2AEB857900936621 /* ScrollViewBootcamp.swift in Sources */,
 				E9BC41102AE8BF02001EB815 /* colorGradient.swift in Sources */,
 				E9FBBE5F2AEA8EDD009489A3 /* init_enums_Bootcamp.swift in Sources */,
+				E9E40E852AF0DFB200D0EB1E /* bindingBootcamp.swift in Sources */,
 				E9CBB4812AE921260080BD6D /* backgroundandoverlay.swift in Sources */,
 				E9FF0FB92AECFE7D00B0834B /* safeareaBootcamp.swift in Sources */,
 				E9BC410E2AE8BF02001EB815 /* BootCampApp.swift in Sources */,
