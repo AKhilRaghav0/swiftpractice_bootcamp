@@ -8,12 +8,51 @@
 import SwiftUI
 
 struct FuncViewExtraction: View {
+    @State var backgroundColor: Color = Color.pink
+    
     var body: some View {
+        
+       
         ZStack {
-            LinearGradient(colors: [Color.red.opacity(0.5), Color.gray], startPoint: .leading, endPoint: .bottomTrailing)
-                .ignoresSafeArea()
-            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            //background
+            backgroundColor
+                .ignoresSafeArea(.all)
+//            LinearGradient(colors: [Color.red.opacity(0.5), Color.gray], startPoint: .leading, endPoint: .bottomTrailing)
+//                .ignoresSafeArea()
+            //Content
+            
+                contentLayer
+            
+            
+            
         }
+        
+       
+    }
+    
+    var contentLayer: some View{
+        VStack{
+            Text("Title")
+                .font(.largeTitle)
+            Button(action: {
+                buttonPressed()
+//                    backgroundColor = .yellow
+//                    backgroundColor = .cyan
+                
+            }, label: {
+                Text("Press ME")
+                    .fontWeight(.heavy)
+                    .font(.headline)
+                    .foregroundColor(.white)
+                    .padding()
+                    .background(Color.black)
+                    .cornerRadius(10)
+            })
+        }
+    }
+    
+    func buttonPressed(){
+        backgroundColor = .yellow
     }
 }
 
