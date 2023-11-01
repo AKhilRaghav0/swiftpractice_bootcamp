@@ -37,6 +37,8 @@
 		E9E40E822AF0CA8300D0EB1E /* ExtractSubViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E40E802AF0CA8300D0EB1E /* ExtractSubViewBootcamp.swift */; };
 		E9E40E842AF0DFB200D0EB1E /* bindingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E40E832AF0DFB200D0EB1E /* bindingBootcamp.swift */; };
 		E9E40E852AF0DFB200D0EB1E /* bindingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E40E832AF0DFB200D0EB1E /* bindingBootcamp.swift */; };
+		E9E40E872AF0E64B00D0EB1E /* Conditionallogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E40E862AF0E64B00D0EB1E /* Conditionallogic.swift */; };
+		E9E40E882AF0E64B00D0EB1E /* Conditionallogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E40E862AF0E64B00D0EB1E /* Conditionallogic.swift */; };
 		E9E69DA12AE9A0890023CBE7 /* paddingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E69DA02AE9A0890023CBE7 /* paddingBootcamp.swift */; };
 		E9E69DA22AE9A0890023CBE7 /* paddingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E69DA02AE9A0890023CBE7 /* paddingBootcamp.swift */; };
 		E9FBBE5E2AEA8EDD009489A3 /* init_enums_Bootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FBBE5D2AEA8EDC009489A3 /* init_enums_Bootcamp.swift */; };
@@ -64,6 +66,7 @@
 		E9D46D532AEADBF300D111C1 /* forEachBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forEachBootcamp.swift; sourceTree = "<group>"; };
 		E9E40E802AF0CA8300D0EB1E /* ExtractSubViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractSubViewBootcamp.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		E9E40E832AF0DFB200D0EB1E /* bindingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bindingBootcamp.swift; sourceTree = "<group>"; };
+		E9E40E862AF0E64B00D0EB1E /* Conditionallogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conditionallogic.swift; sourceTree = "<group>"; };
 		E9E69DA02AE9A0890023CBE7 /* paddingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paddingBootcamp.swift; sourceTree = "<group>"; };
 		E9FBBE5D2AEA8EDC009489A3 /* init_enums_Bootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = init_enums_Bootcamp.swift; sourceTree = "<group>"; };
 		E9FF0FB72AECFE7D00B0834B /* safeareaBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = safeareaBootcamp.swift; sourceTree = "<group>"; };
@@ -117,6 +120,7 @@
 				E9BC40FF2AE8BF02001EB815 /* Assets.xcassets */,
 				E9E40E802AF0CA8300D0EB1E /* ExtractSubViewBootcamp.swift */,
 				E9E40E832AF0DFB200D0EB1E /* bindingBootcamp.swift */,
+				E9E40E862AF0E64B00D0EB1E /* Conditionallogic.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -251,6 +255,7 @@
 				E939381B2AEA639200006D6F /* spacerboocamp.swift in Sources */,
 				E9E40E812AF0CA8300D0EB1E /* ExtractSubViewBootcamp.swift in Sources */,
 				E9A1C41E2AED314900292D37 /* ButtonsBootcamp.swift in Sources */,
+				E9E40E872AF0E64B00D0EB1E /* Conditionallogic.swift in Sources */,
 				E9CBB4832AE936850080BD6D /* StacksVHZ.swift in Sources */,
 				E9D46D542AEADBF300D111C1 /* forEachBootcamp.swift in Sources */,
 			);
@@ -275,6 +280,7 @@
 				E939381C2AEA639200006D6F /* spacerboocamp.swift in Sources */,
 				E9E40E822AF0CA8300D0EB1E /* ExtractSubViewBootcamp.swift in Sources */,
 				E9A1C41F2AED314A00292D37 /* ButtonsBootcamp.swift in Sources */,
+				E9E40E882AF0E64B00D0EB1E /* Conditionallogic.swift in Sources */,
 				E9CBB4842AE936850080BD6D /* StacksVHZ.swift in Sources */,
 				E9D46D552AEADBF300D111C1 /* forEachBootcamp.swift in Sources */,
 			);
