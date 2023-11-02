@@ -13,16 +13,16 @@ struct animationBootcamp: View {
     
     var body: some View {
         ZStack {
-//            LinearGradient(colors: [Color.gray, Color.cyan], startPoint: .leading, endPoint: .bottomTrailing)
-//                .ignoresSafeArea()
-//
+            LinearGradient(colors: [Color.white, Color.cyan], startPoint: .leading, endPoint: .bottomTrailing)
+                .ignoresSafeArea()
+
             VStack{
                 
                 
                 Button(action: {
-                    withAnimation(.default){
+                        
                         isAnimated.toggle()
-                    }
+                    
                 }, label: {
                     Text("Button".uppercased())
                         .font(.headline)
@@ -31,7 +31,7 @@ struct animationBootcamp: View {
                         .padding()
                         .padding(.horizontal, 20)
                         .background(
-                            RoundedRectangle(cornerRadius: 25)
+                            RoundedRectangle(cornerRadius: 5)
                                 .stroke(Color.black, lineWidth: 5) // Add stroke with line width
                         )
                 })
@@ -39,29 +39,34 @@ struct animationBootcamp: View {
                 
                 
                 Spacer()
-                ZStack{
-                    Spacer()
-                    RoundedRectangle(cornerRadius: isAnimated ? 25 : 50)
-                        .fill(isAnimated ? Color.red : Color.green)
-                        .frame(width: isAnimated ? 300:0, height: isAnimated ? 200:300)
-                    Circle()
-    //                RoundedRectangle(cornerRadius: isAnimated ? 25 : 50)
-                        .fill(isAnimated ? Color.red : Color.green)
-                        .frame(width: isAnimated ? 0:350, height: isAnimated ? 0:400)
+//                ZStack{
 //                    Spacer()
-                    
-                }
-                .padding()
+//                    RoundedRectangle(cornerRadius: isAnimated ? 25 : 50)
+//                        .fill(isAnimated ? Color.red : Color.green)
+//                        .frame(width: isAnimated ? 300:0, height: isAnimated ? 200:300)
+//                    Circle()
+//    //                RoundedRectangle(cornerRadius: isAnimated ? 25 : 50)
+//                        .fill(isAnimated ? Color.red : Color.green)
+//                        .frame(width: isAnimated ? 0:350, height: isAnimated ? 0:400)
+////                    Spacer()
+//
+//                }
+//                .padding()
                 Spacer()
                 
+                RoundedRectangle(cornerRadius: isAnimated ? 50 : 25)
+                    .fill(isAnimated ? Color.red : Color.green)
+                    .frame(width: isAnimated ? 100:300, height: isAnimated ? 100:300)
+                    .rotationEffect(Angle(degrees: isAnimated ? 360 : 0))
+                    .offset(y: isAnimated ?  300: 0)
+                    .animation(Animation
+                        .default
+                        .repeatForever(autoreverses: true))
+//                Circle
 //                RoundedRectangle(cornerRadius: isAnimated ? 25 : 50)
 //                    .fill(isAnimated ? Color.red : Color.green)
-//                    .frame(width: isAnimated ? 300:0, height: isAnimated ? 200:300)
-//                Circle
-////                RoundedRectangle(cornerRadius: isAnimated ? 25 : 50)
-//                    .fill(isAnimated ? Color.red : Color.green)
 //                    .frame(width: isAnimated ? 300:10, height: isAnimated ? 200:30)
-//                Spacer()
+                Spacer()
             }
         }
     }
