@@ -29,6 +29,8 @@
 		E9BFEC1D2AEB857900936621 /* ScrollViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BFEC1B2AEB857900936621 /* ScrollViewBootcamp.swift */; };
 		E9CBA0FF2AF36E5B00652FDA /* TernaryOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CBA0FE2AF36E5B00652FDA /* TernaryOperators.swift */; };
 		E9CBA1002AF36E5C00652FDA /* TernaryOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CBA0FE2AF36E5B00652FDA /* TernaryOperators.swift */; };
+		E9CBA1022AF3744700652FDA /* animationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CBA1012AF3744700652FDA /* animationBootcamp.swift */; };
+		E9CBA1032AF3744700652FDA /* animationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CBA1012AF3744700652FDA /* animationBootcamp.swift */; };
 		E9CBB4802AE921260080BD6D /* backgroundandoverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CBB47F2AE921260080BD6D /* backgroundandoverlay.swift */; };
 		E9CBB4812AE921260080BD6D /* backgroundandoverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CBB47F2AE921260080BD6D /* backgroundandoverlay.swift */; };
 		E9CBB4832AE936850080BD6D /* StacksVHZ.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CBB4822AE936850080BD6D /* StacksVHZ.swift */; };
@@ -64,6 +66,7 @@
 		E9BC410C2AE8BF02001EB815 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		E9BFEC1B2AEB857900936621 /* ScrollViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewBootcamp.swift; sourceTree = "<group>"; };
 		E9CBA0FE2AF36E5B00652FDA /* TernaryOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryOperators.swift; sourceTree = "<group>"; };
+		E9CBA1012AF3744700652FDA /* animationBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animationBootcamp.swift; sourceTree = "<group>"; };
 		E9CBB47F2AE921260080BD6D /* backgroundandoverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = backgroundandoverlay.swift; sourceTree = "<group>"; };
 		E9CBB4822AE936850080BD6D /* StacksVHZ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksVHZ.swift; sourceTree = "<group>"; };
 		E9D46D532AEADBF300D111C1 /* forEachBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forEachBootcamp.swift; sourceTree = "<group>"; };
@@ -125,6 +128,7 @@
 				E9E40E832AF0DFB200D0EB1E /* bindingBootcamp.swift */,
 				E9E40E862AF0E64B00D0EB1E /* Conditionallogic.swift */,
 				E9CBA0FE2AF36E5B00652FDA /* TernaryOperators.swift */,
+				E9CBA1012AF3744700652FDA /* animationBootcamp.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -255,6 +259,7 @@
 				E9E40E842AF0DFB200D0EB1E /* bindingBootcamp.swift in Sources */,
 				E9CBB4802AE921260080BD6D /* backgroundandoverlay.swift in Sources */,
 				E9FF0FB82AECFE7D00B0834B /* safeareaBootcamp.swift in Sources */,
+				E9CBA1022AF3744700652FDA /* animationBootcamp.swift in Sources */,
 				E9BC410D2AE8BF02001EB815 /* BootCampApp.swift in Sources */,
 				E9B1950F2AEC121300EFCD57 /* LazyVStackBootcamp.swift in Sources */,
 				E939381B2AEA639200006D6F /* spacerboocamp.swift in Sources */,
@@ -281,6 +286,7 @@
 				E9E40E852AF0DFB200D0EB1E /* bindingBootcamp.swift in Sources */,
 				E9CBB4812AE921260080BD6D /* backgroundandoverlay.swift in Sources */,
 				E9FF0FB92AECFE7D00B0834B /* safeareaBootcamp.swift in Sources */,
+				E9CBA1032AF3744700652FDA /* animationBootcamp.swift in Sources */,
 				E9BC410E2AE8BF02001EB815 /* BootCampApp.swift in Sources */,
 				E9B195102AEC121300EFCD57 /* LazyVStackBootcamp.swift in Sources */,
 				E939381C2AEA639200006D6F /* spacerboocamp.swift in Sources */,
