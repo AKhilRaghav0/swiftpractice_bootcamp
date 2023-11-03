@@ -14,6 +14,10 @@ struct transitionBootcamp: View {
     
     var body: some View {
         ZStack(alignment: .bottom){
+            
+            LinearGradient(colors: [Color.cyan, Color.gray], startPoint: .leading, endPoint: .bottomTrailing)
+                .edgesIgnoringSafeArea(.all)
+            
             VStack{
                 Button("Button"){
                     showView.toggle()
@@ -23,14 +27,54 @@ struct transitionBootcamp: View {
             }
             
             if showView {
-                RoundedRectangle(cornerRadius: 30)
-                    .fill(Color.white)
-                    .frame(height: UIScreen.main.bounds.height * 0.5) //will use 50% of a screen
-                    .transition(.asymmetric(insertion: .move(edge: .leading), removal: .move(edge: .bottom)))
-//                    .transition(.move(edge: .bottom))
-//                    .transition(AnyTransition.opacity.animation(.easeInOut))
-                    .animation(.spring())
+                ZStack {
+                    
+                    RoundedRectangle(cornerRadius: 30)
+                        .fill(Color.white.opacity(0.4))
+                        .blur(radius: 2)
+                        .frame(height: UIScreen.main.bounds.height * 0.5) //will use 50% of a screen
+//                        .transition(.asymmetric(insertion: .move(edge: .leading), removal: .move(edge: .bottom)))
+//                        .transition(.move(edge: .bottom))
+                        .transition(AnyTransition.opacity.animation(.easeInOut))
+                        .animation(.spring())
                     .shadow(radius: 20)
+                    
+                    
+                    
+                    HStack(alignment: .bottom){
+                    Spacer()
+                        Button(action: {
+                            // Add your button action here
+                        }) {
+                            Text("Just another label")
+                                .foregroundColor(.white)
+                                .frame(width: 150, height: 50)
+                                .background(
+                                    RoundedRectangle(cornerRadius: 10)
+                                        .fill(Color.red)
+                                )
+                        }
+
+                        Spacer()
+                        
+                        
+                        Button(action: {
+                            // Add your button action here
+                        }) {
+                            Text("Just a label")
+                                .foregroundColor(.white)
+                                .frame(width: 150, height: 50)
+                                .background(
+                                    RoundedRectangle(cornerRadius: 10)
+                                        .fill(Color.red)
+                                )
+                        }
+                        Spacer()
+
+                        
+                    }
+                    
+                }
 
             }
             
