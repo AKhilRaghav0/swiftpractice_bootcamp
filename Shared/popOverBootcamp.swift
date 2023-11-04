@@ -17,9 +17,20 @@ struct popOverBootcamp: View {
             
             
             VStack {
+                
+                
+                Button(action: {}){
+                    
+                    Label("Searching for Wifi", systemImage: "wifi")}
+                .buttonStyle(.borderedProminent)
+                .tint(.black0)
+                .font(.largeTitle)
+                
                 Button("Button"){
                     showNewScreen.toggle()
                 }
+                .buttonStyle(.borderedProminent)
+//                .border(.black)
                 .font(.largeTitle)
                 Spacer()
             }
@@ -58,6 +69,41 @@ struct newScreen: View {
             
             Color.purple.edgesIgnoringSafeArea(.all)
             
+            
+            VStack(){
+                
+                
+                
+                
+                
+                
+                
+                
+                HStack {
+                    Image(systemName: "wifi")
+                        
+    //                  .renderingMode(.original)
+                        .padding(.top, 100)
+                        .font(.system(size: 50))
+                    .foregroundColor(.white)
+                    
+                    Text("DisOwned Wifi Network")
+                        .font(.title)
+                        .font(.system(size: 45, design: .rounded))
+                    
+                        .foregroundColor(.white)
+                        .frame(maxWidth: 150)
+                }
+                Text("This is my heading, and i use to write stuff inside it, if it feels good.. then you can change it")
+                    .fontWeight(.semibold)
+                    .foregroundColor(.white)
+                    .padding()
+                    
+                    .font(.largeTitle)
+                    
+                    .padding(.top, 10)
+            }
+            
             Button(action: {
 //                presentationMode.wrappedValue.dismiss()
                 showNewScreen.toggle()
@@ -76,6 +122,6 @@ struct newScreen: View {
 struct popOverBootcamp_Previews: PreviewProvider {
     static var previews: some View {
         popOverBootcamp()
-//        newScreen()
+//        newScreen(, showNewScreen: $newScreen)
     }
 }

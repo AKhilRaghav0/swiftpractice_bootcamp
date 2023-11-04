@@ -109,8 +109,6 @@
 		E9BC40F72AE8BEF4001EB815 = {
 			isa = PBXGroup;
 			children = (
-				E9A606D22AF517DC005BB0EE /* popOverBootcamp.swift */,
-				E9DF12DC2AF50E1A006B47EE /* sheetBootcamp.swift */,
 				E9BC40FC2AE8BEF6001EB815 /* Shared */,
 				E9BC410B2AE8BF02001EB815 /* macOS */,
 				E9BC41052AE8BF02001EB815 /* Products */,
@@ -143,6 +141,8 @@
 				E9CBA1012AF3744700652FDA /* animationBootcamp.swift */,
 				E9F542102AF3CB4D0095885C /* animationtimingBootcamp.swift */,
 				E9F542132AF3CFF80095885C /* transitionBootcamp.swift */,
+				E9DF12DC2AF50E1A006B47EE /* sheetBootcamp.swift */,
+				E9A606D22AF517DC005BB0EE /* popOverBootcamp.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
