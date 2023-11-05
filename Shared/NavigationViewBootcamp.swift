@@ -35,13 +35,27 @@ struct NavigationViewBootcamp: View {
 
 
 struct myAnotherScreen: View {
+    
+    @Environment(\presentationMode) var presentationMode
+    
     var body: some View {
         ZStack(alignment: .bottom){
             LinearGradient(colors: [Color.cyan, Color.gray], startPoint: .leading, endPoint: .bottomTrailing)
                 .edgesIgnoringSafeArea(.all)
                 .navigationTitle("Secondary Screen")
+                .navigationBarBackButtonHidden(true)
             
-            NavigationLink("Click here", destination: Text("Third Screen"))
+            VStack {
+                
+                Button("Back Button"){
+                    presentationMode.wrappedValue.dismiss()
+                    
+                }
+                
+                
+                
+                NavigationLink("Click here", destination: Text("Third Screen"))
+            }
             Spacer()
 //            Button(action: {
 //
