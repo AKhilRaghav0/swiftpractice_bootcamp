@@ -20,11 +20,26 @@ struct NavigationViewBootcamp: View {
                 NavigationLink("Sheet BootCamp", destination: sheetBootcamp())
                 NavigationLink("Another Screen", destination: myAnotherScreen())
                 
-               
+                
             }
             .navigationTitle("My Bootcamps")
+            .navigationBarItems(
+                leading: HStack {
+                    Image(systemName: "person.fill")
+                    Image(systemName: "flame")
+                        .foregroundColor(.red)
+                },
+                                trailing: NavigationLink(
+                                    destination: LazyVStackBootcamp(),
+                                    label: {
+                                        Image(systemName: "gear")
+                                    }
+                                ).accentColor(.black)
+            )
             .navigationBarTitleDisplayMode(.automatic)
-//            .navigationBarHidden(true)
+            
+            
+            //            .navigationBarHidden(true)
             
             
         }
@@ -36,7 +51,7 @@ struct NavigationViewBootcamp: View {
 
 struct myAnotherScreen: View {
     
-    @Environment(\presentationMode) var presentationMode
+    @Environment(\.presentationMode) var presentationMode
     
     var body: some View {
         ZStack(alignment: .bottom){
@@ -57,19 +72,19 @@ struct myAnotherScreen: View {
                 NavigationLink("Click here", destination: Text("Third Screen"))
             }
             Spacer()
-//            Button(action: {
-//
-//            }, label: {
-//                Text("Press me")
-//
-                                    
-                
-//            })
-            .font(.largeTitle)
-            .foregroundColor(.black)
-            .tint(.white)
-            .buttonStyle(.bordered)
-
+            //            Button(action: {
+            //
+            //            }, label: {
+            //                Text("Press me")
+            //
+            
+            
+            //            })
+                .font(.largeTitle)
+                .foregroundColor(.black)
+                .tint(.white)
+                .buttonStyle(.bordered)
+            
         }
     }
 }
