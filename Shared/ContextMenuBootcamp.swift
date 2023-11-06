@@ -25,6 +25,8 @@ struct ContextMenuBootcamp: View {
         .foregroundColor(foregroundColor)
         .padding(30)
         .background(backgroundColor).cornerRadius(30)
+        // thats how you can add any context Menu on any Element of an app, just as we use it over Instagram posts, by long pressing over it
+        
         .contextMenu(menuItems: {
             Button(action: {
                 backgroundColor = .yellow
