@@ -14,20 +14,39 @@ struct ListBootcamp: View {
     
     
     var body: some View {
-        List {
-            
-            Section(
-                header: Text("Fruits")){
-                    ForEach(fruits, id: \.self) { fruit in
-                        Text(fruit.capitalized)
+        NavigationView {
+            List {
+                
+                Section(
+                    header: Text("Fruits")){
+                        ForEach(fruits, id: \.self) { fruit in
+                            Text(fruit.capitalized)
+                        }
+                        .onDelete(perform: delete)
+                        .onMove(perform: move)
                     }
-                    .onDelete(perform: { IndexSet in
-                        fruits.remove(atOffsets: IndexSet)
-                    })
-                }
+                
+                
+            }
+            .navigationTitle("Grocery List")
+            .navigationBarItems(
+                leading: EditButton(),
+            trailing:
+                    Button("Add", action: add)
             
-            
+            )
         }
+        
+    }
+    func delete(IndexSet: IndexSet) {
+        fruits.remove(atOffsets: IndexSet)
+    }
+    func move(indices: IndexSet, newOffset: Int){
+        fruits.move(fromOffsets: indices, toOffset: newOffset)
+
+    }
+    func add(){
+        fruits.append("Coconut")
     }
 }
 
