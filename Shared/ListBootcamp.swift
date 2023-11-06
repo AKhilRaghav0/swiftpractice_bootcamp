@@ -11,42 +11,71 @@ struct ListBootcamp: View {
     @State var fruits: [String] = [
         "apple", "orange", "banana", "peach"
     ]
-    
+    @State var veggies: [String] = [
+    "tomato", "potato", "carrot"
+    ]
     
     var body: some View {
         NavigationView {
             List {
                 
                 Section(
-                    header: Text("Fruits")){
+                    header:
+                        HStack {
+                            Text("Fruits")
+                            .foregroundColor(.accentColor)
+                            .font(.headline)
+                        .fontWeight(.semibold)
+                            
+                            Image(systemName: "flame.fill")
+                        }
+                
+                ){
                         ForEach(fruits, id: \.self) { fruit in
                             Text(fruit.capitalized)
                         }
                         .onDelete(perform: delete)
                         .onMove(perform: move)
                     }
-                
+                Section(
+                    header: Text("Vegitables")){
+                        ForEach(veggies, id: \.self) { veggie in
+                            Text(veggie.capitalized)
+                            
+                        }
+                    }
                 
             }
+            .accentColor(.red)
+//            .listStyle(.automatic)
             .navigationTitle("Grocery List")
             .navigationBarItems(
                 leading: EditButton(),
-            trailing:
-                    Button("Add", action: add)
-            
+                trailing: addButton
+                
+                    
+                
+                
             )
-        }
+        }.accentColor(.purple)
         
     }
+    
+    var addButton: some View{
+        Button("Add", action: add)
+    }
+    
+    
     func delete(IndexSet: IndexSet) {
         fruits.remove(atOffsets: IndexSet)
     }
     func move(indices: IndexSet, newOffset: Int){
         fruits.move(fromOffsets: indices, toOffset: newOffset)
-
+        
     }
     func add(){
         fruits.append("Coconut")
+        
     }
 }
 
