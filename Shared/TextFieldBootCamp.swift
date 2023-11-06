@@ -28,7 +28,10 @@ struct TextFieldBootCamp: View {
                 
 //                Spacer()
                 Button(action: {
-                    
+                    if textIsAppropriate(){
+                        saveText()
+                    }
+                   
                 }, label: {
                     Text("Save".uppercased())
                         .padding()
@@ -56,6 +59,13 @@ struct TextFieldBootCamp: View {
     }
     func saveText(){
         dataArray.append(textfieldText)
+        textfieldText = ""
+    }
+    func textIsAppropriate() -> Bool {
+        if textfieldText.count >= 3 {
+            return true
+        }
+        return false
     }
 }
 
