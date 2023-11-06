@@ -23,19 +23,24 @@ struct ListBootcamp: View {
                     header:
                         HStack {
                             Text("Fruits")
-                            .foregroundColor(.accentColor)
-                            .font(.headline)
-                        .fontWeight(.semibold)
-                            
                             Image(systemName: "flame.fill")
                         }
+                       .font(.headline)
+                       .foregroundColor(.orange)
+                        
                 
                 ){
                         ForEach(fruits, id: \.self) { fruit in
                             Text(fruit.capitalized)
+                                .font(.subheadline)
+                                .foregroundColor(.white)
+                                .padding(.vertical, 10)
+//                                .frame(maxWidth: .infinity, maxHeight: .infinity)
+//                                .background(Color.pink)
                         }
                         .onDelete(perform: delete)
                         .onMove(perform: move)
+                        .listRowBackground(Color.gray)
                     }
                 Section(
                     header: Text("Vegitables")){
