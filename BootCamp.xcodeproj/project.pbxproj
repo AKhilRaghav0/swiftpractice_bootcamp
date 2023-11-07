@@ -33,6 +33,7 @@
 		E9BE64E02AF8821500E07F48 /* ListBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BE64DF2AF8821400E07F48 /* ListBootcamp.swift */; };
 		E9BFEC1C2AEB857900936621 /* ScrollViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BFEC1B2AEB857900936621 /* ScrollViewBootcamp.swift */; };
 		E9BFEC1D2AEB857900936621 /* ScrollViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BFEC1B2AEB857900936621 /* ScrollViewBootcamp.swift */; };
+		E9C169112AFA4608008408FE /* toggleBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C169102AFA4608008408FE /* toggleBootcamp.swift */; };
 		E9C361532AF8D71300A0F7CB /* actionsheetBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C361522AF8D71300A0F7CB /* actionsheetBootcamp.swift */; };
 		E9CBA0FF2AF36E5B00652FDA /* TernaryOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CBA0FE2AF36E5B00652FDA /* TernaryOperators.swift */; };
 		E9CBA1002AF36E5C00652FDA /* TernaryOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CBA0FE2AF36E5B00652FDA /* TernaryOperators.swift */; };
@@ -84,6 +85,7 @@
 		E9BC410C2AE8BF02001EB815 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		E9BE64DF2AF8821400E07F48 /* ListBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBootcamp.swift; sourceTree = "<group>"; };
 		E9BFEC1B2AEB857900936621 /* ScrollViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewBootcamp.swift; sourceTree = "<group>"; };
+		E9C169102AFA4608008408FE /* toggleBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toggleBootcamp.swift; sourceTree = "<group>"; };
 		E9C361522AF8D71300A0F7CB /* actionsheetBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = actionsheetBootcamp.swift; sourceTree = "<group>"; };
 		E9CBA0FE2AF36E5B00652FDA /* TernaryOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryOperators.swift; sourceTree = "<group>"; };
 		E9CBA1012AF3744700652FDA /* animationBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animationBootcamp.swift; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 				E9A3FFCE2AF91BCB00A327DE /* ContextMenuBootcamp.swift */,
 				E99F554F2AF9387E00357910 /* TextFieldBootCamp.swift */,
 				E90891B72AFA1337005D41CC /* texteditorbootcamp.swift */,
+				E9C169102AFA4608008408FE /* toggleBootcamp.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				E9A1C4212AED379300292D37 /* StateBootcamp.swift in Sources */,
 				E9A3FFCF2AF91BCB00A327DE /* ContextMenuBootcamp.swift in Sources */,
 				E9DF12DD2AF50E1A006B47EE /* sheetBootcamp.swift in Sources */,
+				E9C169112AFA4608008408FE /* toggleBootcamp.swift in Sources */,
 				E9E69DA12AE9A0890023CBE7 /* paddingBootcamp.swift in Sources */,
 				E90DA69C2AE8D5AA00D6BFA2 /* framesBootcamp.swift in Sources */,
 				E9BFEC1C2AEB857900936621 /* ScrollViewBootcamp.swift in Sources */,
