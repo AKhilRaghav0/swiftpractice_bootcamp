@@ -24,7 +24,7 @@ struct pickerToggleBootcamp: View {
                    label: Image(systemName: "sun.fill"),
                    content: {
                        
-               ForEach(18..<100){ index in
+               ForEach(18..<20){ index in
                    Text("\(index)")
                        .font(.headline)
                        .bold()
@@ -39,7 +39,7 @@ struct pickerToggleBootcamp: View {
             .background(Color.gray.opacity(0.3))
             
             
-            .pickerStyle(.menu)
+            .pickerStyle(.segmented)
 //            .navigationTitle("Picker Bootcamp")
 //            .navigationBarTitleDisplayMode(.automatic)
             
