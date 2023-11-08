@@ -17,11 +17,12 @@ struct toggleBootcamp: View {
                     Text("Status:")
                         
                     Text(toggleIsOn ?  "Online":"Offline")
-                    Image(systemName: toggleIsOn ? "network" : "wifi.slash")
+                    Image(systemName: toggleIsOn ? "wifi" : "wifi.slash")
                         
                         
                 }
                 .frame(width: .infinity)
+                
                 
                 .foregroundColor(toggleIsOn ? .green : .red)
                 .font(.headline)

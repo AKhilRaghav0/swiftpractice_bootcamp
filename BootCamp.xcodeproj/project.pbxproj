@@ -22,6 +22,7 @@
 		E9A1C4252AED542E00292D37 /* FuncViewExtraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A1C4232AED542E00292D37 /* FuncViewExtraction.swift */; };
 		E9A3FFCF2AF91BCB00A327DE /* ContextMenuBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A3FFCE2AF91BCB00A327DE /* ContextMenuBootcamp.swift */; };
 		E9A606D32AF517DD005BB0EE /* popOverBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A606D22AF517DC005BB0EE /* popOverBootcamp.swift */; };
+		E9AFAE762AFA90B7000AF0F5 /* dancingdots.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AFAE752AFA90B7000AF0F5 /* dancingdots.swift */; };
 		E9B1950F2AEC121300EFCD57 /* LazyVStackBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B1950E2AEC121200EFCD57 /* LazyVStackBootcamp.swift */; };
 		E9B195102AEC121300EFCD57 /* LazyVStackBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B1950E2AEC121200EFCD57 /* LazyVStackBootcamp.swift */; };
 		E9BC410D2AE8BF02001EB815 /* BootCampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BC40FD2AE8BEF6001EB815 /* BootCampApp.swift */; };
@@ -34,6 +35,7 @@
 		E9BFEC1C2AEB857900936621 /* ScrollViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BFEC1B2AEB857900936621 /* ScrollViewBootcamp.swift */; };
 		E9BFEC1D2AEB857900936621 /* ScrollViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BFEC1B2AEB857900936621 /* ScrollViewBootcamp.swift */; };
 		E9C169112AFA4608008408FE /* toggleBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C169102AFA4608008408FE /* toggleBootcamp.swift */; };
+		E9C169132AFA4FEA008408FE /* pickerToggleBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C169122AFA4FEA008408FE /* pickerToggleBootcamp.swift */; };
 		E9C361532AF8D71300A0F7CB /* actionsheetBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C361522AF8D71300A0F7CB /* actionsheetBootcamp.swift */; };
 		E9CBA0FF2AF36E5B00652FDA /* TernaryOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CBA0FE2AF36E5B00652FDA /* TernaryOperators.swift */; };
 		E9CBA1002AF36E5C00652FDA /* TernaryOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CBA0FE2AF36E5B00652FDA /* TernaryOperators.swift */; };
@@ -76,6 +78,7 @@
 		E9A1C4232AED542E00292D37 /* FuncViewExtraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuncViewExtraction.swift; sourceTree = "<group>"; };
 		E9A3FFCE2AF91BCB00A327DE /* ContextMenuBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuBootcamp.swift; sourceTree = "<group>"; };
 		E9A606D22AF517DC005BB0EE /* popOverBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popOverBootcamp.swift; sourceTree = "<group>"; };
+		E9AFAE752AFA90B7000AF0F5 /* dancingdots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dancingdots.swift; sourceTree = "<group>"; };
 		E9B1950E2AEC121200EFCD57 /* LazyVStackBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVStackBootcamp.swift; sourceTree = "<group>"; };
 		E9BC40FD2AE8BEF6001EB815 /* BootCampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootCampApp.swift; sourceTree = "<group>"; };
 		E9BC40FE2AE8BEF6001EB815 /* colorGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colorGradient.swift; sourceTree = "<group>"; };
@@ -86,6 +89,7 @@
 		E9BE64DF2AF8821400E07F48 /* ListBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBootcamp.swift; sourceTree = "<group>"; };
 		E9BFEC1B2AEB857900936621 /* ScrollViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewBootcamp.swift; sourceTree = "<group>"; };
 		E9C169102AFA4608008408FE /* toggleBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toggleBootcamp.swift; sourceTree = "<group>"; };
+		E9C169122AFA4FEA008408FE /* pickerToggleBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pickerToggleBootcamp.swift; sourceTree = "<group>"; };
 		E9C361522AF8D71300A0F7CB /* actionsheetBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = actionsheetBootcamp.swift; sourceTree = "<group>"; };
 		E9CBA0FE2AF36E5B00652FDA /* TernaryOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryOperators.swift; sourceTree = "<group>"; };
 		E9CBA1012AF3744700652FDA /* animationBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animationBootcamp.swift; sourceTree = "<group>"; };
@@ -167,6 +171,8 @@
 				E99F554F2AF9387E00357910 /* TextFieldBootCamp.swift */,
 				E90891B72AFA1337005D41CC /* texteditorbootcamp.swift */,
 				E9C169102AFA4608008408FE /* toggleBootcamp.swift */,
+				E9C169122AFA4FEA008408FE /* pickerToggleBootcamp.swift */,
+				E9AFAE752AFA90B7000AF0F5 /* dancingdots.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -300,6 +306,7 @@
 				E9BE64E02AF8821500E07F48 /* ListBootcamp.swift in Sources */,
 				E9BC410F2AE8BF02001EB815 /* colorGradient.swift in Sources */,
 				E99F55502AF9387E00357910 /* TextFieldBootCamp.swift in Sources */,
+				E9AFAE762AFA90B7000AF0F5 /* dancingdots.swift in Sources */,
 				E9FBBE5E2AEA8EDD009489A3 /* init_enums_Bootcamp.swift in Sources */,
 				E90891B82AFA1338005D41CC /* texteditorbootcamp.swift in Sources */,
 				E9E40E842AF0DFB200D0EB1E /* bindingBootcamp.swift in Sources */,
@@ -312,6 +319,7 @@
 				E9BC410D2AE8BF02001EB815 /* BootCampApp.swift in Sources */,
 				E9B1950F2AEC121300EFCD57 /* LazyVStackBootcamp.swift in Sources */,
 				E9F71C162AF5F4A700BB9CB3 /* NavigationViewBootcamp.swift in Sources */,
+				E9C169132AFA4FEA008408FE /* pickerToggleBootcamp.swift in Sources */,
 				E939381B2AEA639200006D6F /* spacerboocamp.swift in Sources */,
 				E9E40E812AF0CA8300D0EB1E /* ExtractSubViewBootcamp.swift in Sources */,
 				E9A1C41E2AED314900292D37 /* ButtonsBootcamp.swift in Sources */,
