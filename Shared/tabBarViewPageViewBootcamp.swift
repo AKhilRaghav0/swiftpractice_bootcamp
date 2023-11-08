@@ -14,83 +14,110 @@ struct tabBarViewPageViewBootcamp: View {
     
     var body: some View {
         
-        
-        
-        
-        
-        TabView(selection: $selectedTab, content: {
-            ExtractedView(selectedTab: $selectedTab)
-                .tabItem({
-                    Image(systemName: "house.fill")
-                    Text("Home")
+        TabView{
+            
+            ZStack {
+//                RoundedRectangle(cornerRadius: 25)
+                
+                Color.red
+//                    .ignoresSafeArea()
+                    .cornerRadius(30)
+                VStack {
+                    Image(systemName: "square.and.arrow.down.fill")
+                        .foregroundColor(.white)
+                        .font(.system(size: 50))
+                    Text("Download Anything")
+                        .font(.headline)
+                        .foregroundColor(.white)
+                    
+                    
                     
                 }
-                ).tag(1)
-            
-            Text("Browse")
-                .tabItem{
-                    Image(systemName: "network")
-                    Text("Browse")
-                }
-                .tag(2)
-            Text("Content Not Available")
-                .tabItem{
-                    Image(systemName: "bonjour")
-                    Text("Recheck Devices")
-                }
-                .tag(3)
-            Text("Profile")
-                .tabItem{
-                    Image(systemName: "person.crop.circle")
-                    Text("Profile")
-                }
-                .tag(4)
-        })
-        .font(.headline)
-        .accentColor(.black)
-        
-        
-        
-        
-    }
-    //
-    //
-}
-
-
-struct tabBarViewPageViewBootcamp_Previews: PreviewProvider {
-    static var previews: some View {
-        tabBarViewPageViewBootcamp()
-    }
-}
-
-struct ExtractedView: View {
-    
-    @Binding var selectedTab: Int
-    
-    var body: some View {
-        ZStack(){
-            Color.blue.opacity(0.4).ignoresSafeArea(.all)
-            VStack{
-                
-                Text("Home Tab")
-                //                    .foregroundColor(.white)
-                    .font(.largeTitle)
-                //            Spacer()
-                
-                Button(action: {
-                    selectedTab = 4
-                }, label: {
-                    Text("Go to Profile")
-                        .font(.headline)
-                        .padding()
-                        .padding(.horizontal)
-                        .background(Color.white)
-                        .cornerRadius(10)
-                })
+                .padding()
             }
-            
+            RoundedRectangle(cornerRadius: 25)
+            RoundedRectangle(cornerRadius: 25)
+            Spacer()
         }
+        .tabViewStyle(.page)
         
+        
+        
+        //        TabView(selection: $selectedTab, content: {
+        //            ExtractedView(selectedTab: $selectedTab)
+        //                .tabItem({
+        //                    Image(systemName: "house.fill")
+        //                    Text("Home")
+        //
+        //                }
+        //                ).tag(1)
+        //
+        //            Text("Browse")
+        //                .tabItem{
+        //                    Image(systemName: "network")
+        //                    Text("Browse")
+        //                }
+        //                .tag(2)
+        //            Text("Content Not Available")
+        //                .tabItem{
+        //                    Image(systemName: "bonjour")
+        //                    Text("Recheck Devices")
+        //                }
+        //                .tag(3)
+        //            Text("Profile")
+        //                .tabItem{
+        //                    Image(systemName: "person.crop.circle")
+        //                    Text("Profile")
+        //                }
+        //                .tag(4)
+        //        })
+        //        .font(.headline)
+        //        .accentColor(.black)
+        
+        
+        
+        
+        //    }
+        //
+        //
     }
+    
+    
+    struct tabBarViewPageViewBootcamp_Previews: PreviewProvider {
+        static var previews: some View {
+            tabBarViewPageViewBootcamp()
+        }
+    }
+    
+    //    struct ExtractedView: View {
+    //
+    //        @Binding var selectedTab: Int
+    //
+    //        var body: some View {
+    //            ZStack(){
+    //                Color.blue.opacity(0.4).ignoresSafeArea(.all)
+    //                VStack{
+    //
+    //                    Text("Home Tab")
+    //                    //                    .foregroundColor(.white)
+    //                        .font(.largeTitle)
+    //                    //            Spacer()
+    //
+    //                    Button(action: {
+    //                        selectedTab = 4
+    //                    }, label: {
+    //                        Text("Go to Profile")
+    //                            .font(.headline)
+    //                            .padding()
+    //                            .padding(.horizontal)
+    //                            .background(Color.white)
+    //                            .cornerRadius(10)
+    //                    })
+    //                }
+    //
+    //            }
+    //
+    //        }
+    //    }
+    
 }
