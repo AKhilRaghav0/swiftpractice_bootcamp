@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import MapKit
 
 struct datePickerBootCamp: View {
     let startingDate: Date = Calendar.current.date(from: DateComponents(year: 2018)) ?? Date()
@@ -22,13 +23,13 @@ struct datePickerBootCamp: View {
     
     var body: some View {
         ZStack{
+//            Map(coordinateRegion: 323, interactionModes: .all, showsUserLocation: false, userTrackingMode: .none)
+//
             
-            
-            LinearGradient(colors: [Color.gray, Color.black], startPoint: .bottomTrailing, endPoint: .top)
-                .ignoresSafeArea(.all)
+           
             
             VStack {
-                
+                ProgressView("Text", value: 10, total: 100)
                 Text("Selected Date is: ")
                     .font(.headline)
                     .foregroundColor(.white)
