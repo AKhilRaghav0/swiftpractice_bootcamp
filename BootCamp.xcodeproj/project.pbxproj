@@ -61,6 +61,7 @@
 		E9E40E882AF0E64B00D0EB1E /* Conditionallogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E40E862AF0E64B00D0EB1E /* Conditionallogic.swift */; };
 		E9E69DA12AE9A0890023CBE7 /* paddingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E69DA02AE9A0890023CBE7 /* paddingBootcamp.swift */; };
 		E9E69DA22AE9A0890023CBE7 /* paddingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E69DA02AE9A0890023CBE7 /* paddingBootcamp.swift */; };
+		E9E875032AFCFAF20030FF7A /* ifletGUardBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E875022AFCFAF20030FF7A /* ifletGUardBootcamp.swift */; };
 		E9F542112AF3CB4D0095885C /* animationtimingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F542102AF3CB4D0095885C /* animationtimingBootcamp.swift */; };
 		E9F542122AF3CB4D0095885C /* animationtimingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F542102AF3CB4D0095885C /* animationtimingBootcamp.swift */; };
 		E9F542142AF3CFF80095885C /* transitionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F542132AF3CFF80095885C /* transitionBootcamp.swift */; };
@@ -114,6 +115,7 @@
 		E9E40E832AF0DFB200D0EB1E /* bindingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bindingBootcamp.swift; sourceTree = "<group>"; };
 		E9E40E862AF0E64B00D0EB1E /* Conditionallogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conditionallogic.swift; sourceTree = "<group>"; };
 		E9E69DA02AE9A0890023CBE7 /* paddingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paddingBootcamp.swift; sourceTree = "<group>"; };
+		E9E875022AFCFAF20030FF7A /* ifletGUardBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ifletGUardBootcamp.swift; sourceTree = "<group>"; };
 		E9F542102AF3CB4D0095885C /* animationtimingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animationtimingBootcamp.swift; sourceTree = "<group>"; };
 		E9F542132AF3CFF80095885C /* transitionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transitionBootcamp.swift; sourceTree = "<group>"; };
 		E9F71C152AF5F4A700BB9CB3 /* NavigationViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewBootcamp.swift; sourceTree = "<group>"; };
@@ -196,6 +198,7 @@
 				E9C0122C2AFBEFCE000A5B07 /* darkmodeBootcamp.swift */,
 				E9C0122E2AFBFCD5000A5B07 /* markups&documentationsBootCamp.swift */,
 				E9A35D582AFCEC2B00DE6335 /* onApperBootcamp.swift */,
+				E9E875022AFCFAF20030FF7A /* ifletGUardBootcamp.swift */,
 				E9AFAE752AFA90B7000AF0F5 /* dancingdots.swift */,
 			);
 			path = Shared;
@@ -335,6 +338,7 @@
 				E9FA37F02AFB5D2A00339FA8 /* datePickerBootCamp.swift in Sources */,
 				E9FBBE5E2AEA8EDD009489A3 /* init_enums_Bootcamp.swift in Sources */,
 				E90891B82AFA1338005D41CC /* texteditorbootcamp.swift in Sources */,
+				E9E875032AFCFAF20030FF7A /* ifletGUardBootcamp.swift in Sources */,
 				E9E40E842AF0DFB200D0EB1E /* bindingBootcamp.swift in Sources */,
 				E9CBB4802AE921260080BD6D /* backgroundandoverlay.swift in Sources */,
 				E9CDDF5A2AFB831E0009920F /* SliderBootcamp.swift in Sources */,
