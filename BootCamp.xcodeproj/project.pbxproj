@@ -20,6 +20,7 @@
 		E9A1C4222AED379300292D37 /* StateBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A1C4202AED379300292D37 /* StateBootcamp.swift */; };
 		E9A1C4242AED542E00292D37 /* FuncViewExtraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A1C4232AED542E00292D37 /* FuncViewExtraction.swift */; };
 		E9A1C4252AED542E00292D37 /* FuncViewExtraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A1C4232AED542E00292D37 /* FuncViewExtraction.swift */; };
+		E9A35D592AFCEC2B00DE6335 /* onApperBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A35D582AFCEC2B00DE6335 /* onApperBootcamp.swift */; };
 		E9A3FFCF2AF91BCB00A327DE /* ContextMenuBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A3FFCE2AF91BCB00A327DE /* ContextMenuBootcamp.swift */; };
 		E9A606D32AF517DD005BB0EE /* popOverBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A606D22AF517DC005BB0EE /* popOverBootcamp.swift */; };
 		E9AFAE762AFA90B7000AF0F5 /* dancingdots.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AFAE752AFA90B7000AF0F5 /* dancingdots.swift */; };
@@ -83,6 +84,7 @@
 		E9A1C41D2AED314900292D37 /* ButtonsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsBootcamp.swift; sourceTree = "<group>"; };
 		E9A1C4202AED379300292D37 /* StateBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateBootcamp.swift; sourceTree = "<group>"; };
 		E9A1C4232AED542E00292D37 /* FuncViewExtraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuncViewExtraction.swift; sourceTree = "<group>"; };
+		E9A35D582AFCEC2B00DE6335 /* onApperBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onApperBootcamp.swift; sourceTree = "<group>"; };
 		E9A3FFCE2AF91BCB00A327DE /* ContextMenuBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuBootcamp.swift; sourceTree = "<group>"; };
 		E9A606D22AF517DC005BB0EE /* popOverBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popOverBootcamp.swift; sourceTree = "<group>"; };
 		E9AFAE752AFA90B7000AF0F5 /* dancingdots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dancingdots.swift; sourceTree = "<group>"; };
@@ -193,6 +195,7 @@
 				E9D032692AFBAF0B00913A88 /* tabBarViewPageViewBootcamp.swift */,
 				E9C0122C2AFBEFCE000A5B07 /* darkmodeBootcamp.swift */,
 				E9C0122E2AFBFCD5000A5B07 /* markups&documentationsBootCamp.swift */,
+				E9A35D582AFCEC2B00DE6335 /* onApperBootcamp.swift */,
 				E9AFAE752AFA90B7000AF0F5 /* dancingdots.swift */,
 			);
 			path = Shared;
@@ -345,6 +348,7 @@
 				E9F71C162AF5F4A700BB9CB3 /* NavigationViewBootcamp.swift in Sources */,
 				E9C169132AFA4FEA008408FE /* pickerToggleBootcamp.swift in Sources */,
 				E939381B2AEA639200006D6F /* spacerboocamp.swift in Sources */,
+				E9A35D592AFCEC2B00DE6335 /* onApperBootcamp.swift in Sources */,
 				E9D0326A2AFBAF0C00913A88 /* tabBarViewPageViewBootcamp.swift in Sources */,
 				E9FA37F22AFB741F00339FA8 /* stepperBootCamp.swift in Sources */,
 				E9E40E812AF0CA8300D0EB1E /* ExtractSubViewBootcamp.swift in Sources */,
