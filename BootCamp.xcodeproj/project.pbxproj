@@ -62,6 +62,7 @@
 		E9E69DA12AE9A0890023CBE7 /* paddingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E69DA02AE9A0890023CBE7 /* paddingBootcamp.swift */; };
 		E9E69DA22AE9A0890023CBE7 /* paddingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E69DA02AE9A0890023CBE7 /* paddingBootcamp.swift */; };
 		E9E875032AFCFAF20030FF7A /* ifletGUardBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E875022AFCFAF20030FF7A /* ifletGUardBootcamp.swift */; };
+		E9E875052AFD06650030FF7A /* TapGestureBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E875042AFD06650030FF7A /* TapGestureBootCamp.swift */; };
 		E9F542112AF3CB4D0095885C /* animationtimingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F542102AF3CB4D0095885C /* animationtimingBootcamp.swift */; };
 		E9F542122AF3CB4D0095885C /* animationtimingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F542102AF3CB4D0095885C /* animationtimingBootcamp.swift */; };
 		E9F542142AF3CFF80095885C /* transitionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F542132AF3CFF80095885C /* transitionBootcamp.swift */; };
@@ -116,6 +117,7 @@
 		E9E40E862AF0E64B00D0EB1E /* Conditionallogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conditionallogic.swift; sourceTree = "<group>"; };
 		E9E69DA02AE9A0890023CBE7 /* paddingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paddingBootcamp.swift; sourceTree = "<group>"; };
 		E9E875022AFCFAF20030FF7A /* ifletGUardBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ifletGUardBootcamp.swift; sourceTree = "<group>"; };
+		E9E875042AFD06650030FF7A /* TapGestureBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureBootCamp.swift; sourceTree = "<group>"; };
 		E9F542102AF3CB4D0095885C /* animationtimingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animationtimingBootcamp.swift; sourceTree = "<group>"; };
 		E9F542132AF3CFF80095885C /* transitionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transitionBootcamp.swift; sourceTree = "<group>"; };
 		E9F71C152AF5F4A700BB9CB3 /* NavigationViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewBootcamp.swift; sourceTree = "<group>"; };
@@ -199,6 +201,7 @@
 				E9C0122E2AFBFCD5000A5B07 /* markups&documentationsBootCamp.swift */,
 				E9A35D582AFCEC2B00DE6335 /* onApperBootcamp.swift */,
 				E9E875022AFCFAF20030FF7A /* ifletGUardBootcamp.swift */,
+				E9E875042AFD06650030FF7A /* TapGestureBootCamp.swift */,
 				E9AFAE752AFA90B7000AF0F5 /* dancingdots.swift */,
 			);
 			path = Shared;
@@ -331,6 +334,7 @@
 				E90DA69C2AE8D5AA00D6BFA2 /* framesBootcamp.swift in Sources */,
 				E9BFEC1C2AEB857900936621 /* ScrollViewBootcamp.swift in Sources */,
 				E9C361532AF8D71300A0F7CB /* actionsheetBootcamp.swift in Sources */,
+				E9E875052AFD06650030FF7A /* TapGestureBootCamp.swift in Sources */,
 				E9BE64E02AF8821500E07F48 /* ListBootcamp.swift in Sources */,
 				E9BC410F2AE8BF02001EB815 /* colorGradient.swift in Sources */,
 				E99F55502AF9387E00357910 /* TextFieldBootCamp.swift in Sources */,
