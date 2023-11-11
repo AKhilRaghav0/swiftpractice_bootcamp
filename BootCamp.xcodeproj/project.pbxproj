@@ -13,6 +13,8 @@
 		E939381B2AEA639200006D6F /* spacerboocamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E939381A2AEA639200006D6F /* spacerboocamp.swift */; };
 		E939381C2AEA639200006D6F /* spacerboocamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E939381A2AEA639200006D6F /* spacerboocamp.swift */; };
 		E95396E82AF8B0EF003B4355 /* AlertBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95396E72AF8B0EF003B4355 /* AlertBootCamp.swift */; };
+		E9547B832AFF33CB003FE19B /* ModelViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9547B822AFF33CB003FE19B /* ModelViewBootcamp.swift */; };
+		E9547B852AFF5BC6003FE19B /* ViewMOdel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9547B842AFF5BC6003FE19B /* ViewMOdel.swift */; };
 		E99F55502AF9387E00357910 /* TextFieldBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99F554F2AF9387E00357910 /* TextFieldBootCamp.swift */; };
 		E9A1C41E2AED314900292D37 /* ButtonsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A1C41D2AED314900292D37 /* ButtonsBootcamp.swift */; };
 		E9A1C41F2AED314A00292D37 /* ButtonsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A1C41D2AED314900292D37 /* ButtonsBootcamp.swift */; };
@@ -82,6 +84,8 @@
 		E90DA69B2AE8D5AA00D6BFA2 /* framesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = framesBootcamp.swift; sourceTree = "<group>"; };
 		E939381A2AEA639200006D6F /* spacerboocamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spacerboocamp.swift; sourceTree = "<group>"; };
 		E95396E72AF8B0EF003B4355 /* AlertBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBootCamp.swift; sourceTree = "<group>"; };
+		E9547B822AFF33CB003FE19B /* ModelViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelViewBootcamp.swift; sourceTree = "<group>"; };
+		E9547B842AFF5BC6003FE19B /* ViewMOdel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMOdel.swift; sourceTree = "<group>"; };
 		E99F554F2AF9387E00357910 /* TextFieldBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldBootCamp.swift; sourceTree = "<group>"; };
 		E9A1C41D2AED314900292D37 /* ButtonsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsBootcamp.swift; sourceTree = "<group>"; };
 		E9A1C4202AED379300292D37 /* StateBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateBootcamp.swift; sourceTree = "<group>"; };
@@ -202,6 +206,8 @@
 				E9A35D582AFCEC2B00DE6335 /* onApperBootcamp.swift */,
 				E9E875022AFCFAF20030FF7A /* ifletGUardBootcamp.swift */,
 				E9E875042AFD06650030FF7A /* TapGestureBootCamp.swift */,
+				E9547B822AFF33CB003FE19B /* ModelViewBootcamp.swift */,
+				E9547B842AFF5BC6003FE19B /* ViewMOdel.swift */,
 				E9AFAE752AFA90B7000AF0F5 /* dancingdots.swift */,
 			);
 			path = Shared;
@@ -330,6 +336,7 @@
 				E9A3FFCF2AF91BCB00A327DE /* ContextMenuBootcamp.swift in Sources */,
 				E9DF12DD2AF50E1A006B47EE /* sheetBootcamp.swift in Sources */,
 				E9C169112AFA4608008408FE /* toggleBootcamp.swift in Sources */,
+				E9547B852AFF5BC6003FE19B /* ViewMOdel.swift in Sources */,
 				E9E69DA12AE9A0890023CBE7 /* paddingBootcamp.swift in Sources */,
 				E90DA69C2AE8D5AA00D6BFA2 /* framesBootcamp.swift in Sources */,
 				E9BFEC1C2AEB857900936621 /* ScrollViewBootcamp.swift in Sources */,
@@ -363,6 +370,7 @@
 				E9A1C41E2AED314900292D37 /* ButtonsBootcamp.swift in Sources */,
 				E9E40E872AF0E64B00D0EB1E /* Conditionallogic.swift in Sources */,
 				E9C0122D2AFBEFCE000A5B07 /* darkmodeBootcamp.swift in Sources */,
+				E9547B832AFF33CB003FE19B /* ModelViewBootcamp.swift in Sources */,
 				E9CBB4832AE936850080BD6D /* StacksVHZ.swift in Sources */,
 				E9C0122F2AFBFCD5000A5B07 /* markups&documentationsBootCamp.swift in Sources */,
 				E9D46D542AEADBF300D111C1 /* forEachBootcamp.swift in Sources */,
