@@ -18,12 +18,19 @@ struct FruitModel : Identifiable {
 class FruitViewModel : ObservableObject {
     @Published var fruitArray: [FruitModel] = []
     @Published var isLoading: Bool = false
+    
+    
+    
+    
+    init(){
+        getFruits()
+    }
     func getFruits(){
         let fruit1 = FruitModel(name: "banana", count: 90)
         let fruit2 = FruitModel(name: "watermenlon", count: 69)
         let fruit3 = FruitModel(name: "Apple", count: 44)
         let fruit4 = FruitModel(name: "Japaya", count: 89)
-         
+        
         
         isLoading = true
         DispatchQueue.main.asyncAfter(deadline: .now() + 13.0){
@@ -33,16 +40,16 @@ class FruitViewModel : ObservableObject {
             self.fruitArray.append(fruit3)
             self.isLoading = false
         }
-//        let fruit4 = FruitModel(name: "Pomegranet", count: 89)
-//        let furit5 = fruitModel(name: "mango", count: 23),
-//        let furit6 = fruitModel(name: "Orange", count: 90)
-//
-//        fruitArray.append(fruit4)
+        //        let fruit4 = FruitModel(name: "Pomegranet", count: 89)
+        //        let furit5 = fruitModel(name: "mango", count: 23),
+        //        let furit6 = fruitModel(name: "Orange", count: 90)
+        //
+        //        fruitArray.append(fruit4)
     }
-
+    
     func deleteItem(index: IndexSet){
         fruitArray.remove(atOffsets: index
-         )
+        )
     }
     
 }
@@ -51,9 +58,9 @@ class FruitViewModel : ObservableObject {
 //MARK: VIEWMODEL
 
 struct ViewMOdel: View {
-     
+    
     //    @State var fruitArray: [fruitModel] =  []
-//    @ObservedObject var fruitViewModel: FruitViewModel = FruitViewModel()
+    //    @ObservedObject var fruitViewModel: FruitViewModel = FruitViewModel()
     // USE this on Creation and INIT
     @StateObject var fruitViewModel: FruitViewModel = FruitViewModel()  //using this if anything (View Reloads) then this stateObject will presist
     var body: some View {
@@ -82,7 +89,7 @@ struct ViewMOdel: View {
                     .onDelete(perform:  fruitViewModel.deleteItem)
                     
                 }
-             
+                
                 
                 
                 
@@ -90,32 +97,57 @@ struct ViewMOdel: View {
             }
             .listStyle(.grouped)
             .navigationTitle("FruitList 🍎")
-            
-            .onAppear{
-                fruitViewModel.getFruits()
-            }
+            .navigationBarItems(trailing:
+                                    
+                                    NavigationLink(
+                                        destination: SecondaryScreen( fruitViewModel: fruitViewModel),
+                                        
+                                        label: {
+                                            Image(systemName: "arrow.right")
+                                            
+                                        })
+            )
+            //            .onAppear{
+            //                fruitViewModel.getFruits()
         }
     }
-   
 }
 
 
+
+
 struct SecondaryScreen: View {
+    
+    @Environment(\.presentationMode) var presentationMode
+    @ObservedObject var fruitViewModel: FruitViewModel
     var body: some View {
         ZStack {
             
             LinearGradient(colors: [Color.cyan, Color.gray], startPoint: .topLeading, endPoint: .topTrailing)
                 .ignoresSafeArea(.all)
             
-            Button {
+            VStack {
                 
-            } label: {
-                Text("Go Back")
-                    .font(.largeTitle)
-                    .foregroundColor(.white)
+                ForEach(fruitViewModel.fruitArray) { fruit in
+                    Text(fruit.name.uppercased())
+                        .font(.headline)
+                        .foregroundColor(.black )
+                    
+                }
             }
-            .buttonStyle(.borderedProminent)
-
+            
+            
+//            Button {
+//                presentationMode.wrappedValue.dismiss()
+//            } label: {
+//                Text("Go Back")
+//                    .font(.largeTitle)
+//                    .foregroundColor(.white)
+//            }
+//
+//
+//            .buttonStyle(.borderedProminent)
+            
         }
     }
 }
@@ -124,7 +156,7 @@ struct ViewMOdel_Previews: PreviewProvider {
     static var previews: some View {
         Group{
             ViewMOdel()
-            SecondaryScreen()
+//            SecondaryScreen()
         }
         
     }
