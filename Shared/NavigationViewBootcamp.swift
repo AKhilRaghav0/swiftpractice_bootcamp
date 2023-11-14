@@ -10,8 +10,9 @@ import SwiftUI
 struct NavigationViewBootcamp: View {
     var body: some View {
         NavigationView{
+    
             ScrollView {
-                
+            
                 
                 NavigationLink("Buttons BootCamp", destination: ButtonsBootcamp())
                 NavigationLink("Binding BootCamp", destination: bindingBootcamp())
@@ -22,6 +23,13 @@ struct NavigationViewBootcamp: View {
                 
                 
             }
+            .safeAreaInset(edge: .bottom, content: {
+                VStack{
+                    Divider()
+                    Text("")
+                }
+                .background(.regularMaterial)
+            })
             .navigationTitle("My Bootcamps")
             .navigationBarItems(
                 leading: HStack {

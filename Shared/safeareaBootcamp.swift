@@ -24,9 +24,12 @@ struct safeareaBootcamp: View {
                     
                     
                 }
+                }
             }
             
         }
+        .safeAreaInset(edge: .bottom, alignment: .leading) {
+            Text("yes")
         .background(LinearGradient(colors: [Color.red, Color.gray], startPoint: .leading, endPoint: .bottomTrailing))
 //        .ignoresSafeArea()
         
