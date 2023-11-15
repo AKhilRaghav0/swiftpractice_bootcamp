@@ -28,9 +28,9 @@ struct safeareaBootcamp: View {
             }
             
         }
-        .safeAreaInset(edge: .bottom, alignment: .leading) {
-            Text("yes")
-        .background(LinearGradient(colors: [Color.red, Color.gray], startPoint: .leading, endPoint: .bottomTrailing))
+//        .safeAreaInset(edge: .bottom, alignment: .leading) {
+//            Text("yes")
+//        .backg÷round(LinearGradient(colors: [Color.red, Color.gray], startPoint: .leading, endPoint: .bottomTrailing))
 //        .ignoresSafeArea()
         
         
@@ -62,7 +62,7 @@ struct safeareaBootcamp: View {
         
         
     }
-}
+//}
 
 struct safeareaBootcamp_Previews: PreviewProvider {
     static var previews: some View {
