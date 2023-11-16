@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "HD-wallpaper-phone-pad-on-9-16-phone-modern-iphone-blue-contemporary.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
