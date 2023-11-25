@@ -15,6 +15,7 @@
 		E95396E82AF8B0EF003B4355 /* AlertBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95396E72AF8B0EF003B4355 /* AlertBootCamp.swift */; };
 		E9547B832AFF33CB003FE19B /* ModelViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9547B822AFF33CB003FE19B /* ModelViewBootcamp.swift */; };
 		E9547B852AFF5BC6003FE19B /* ViewMOdel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9547B842AFF5BC6003FE19B /* ViewMOdel.swift */; };
+		E99AAEA72B0F0F9B002C4A4A /* Wifi_animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99AAEA62B0F0F9B002C4A4A /* Wifi_animation.swift */; };
 		E99F55502AF9387E00357910 /* TextFieldBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99F554F2AF9387E00357910 /* TextFieldBootCamp.swift */; };
 		E9A1C41E2AED314900292D37 /* ButtonsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A1C41D2AED314900292D37 /* ButtonsBootcamp.swift */; };
 		E9A1C41F2AED314A00292D37 /* ButtonsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A1C41D2AED314900292D37 /* ButtonsBootcamp.swift */; };
@@ -42,6 +43,7 @@
 		E9C169112AFA4608008408FE /* toggleBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C169102AFA4608008408FE /* toggleBootcamp.swift */; };
 		E9C169132AFA4FEA008408FE /* pickerToggleBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C169122AFA4FEA008408FE /* pickerToggleBootcamp.swift */; };
 		E9C361532AF8D71300A0F7CB /* actionsheetBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C361522AF8D71300A0F7CB /* actionsheetBootcamp.swift */; };
+		E9C75B452B11C0B20064C4F7 /* DragGestureBootcamp2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C75B442B11C0B20064C4F7 /* DragGestureBootcamp2.swift */; };
 		E9CBA0FF2AF36E5B00652FDA /* TernaryOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CBA0FE2AF36E5B00652FDA /* TernaryOperators.swift */; };
 		E9CBA1002AF36E5C00652FDA /* TernaryOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CBA0FE2AF36E5B00652FDA /* TernaryOperators.swift */; };
 		E9CBA1022AF3744700652FDA /* animationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CBA1012AF3744700652FDA /* animationBootcamp.swift */; };
@@ -91,6 +93,7 @@
 		E95396E72AF8B0EF003B4355 /* AlertBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBootCamp.swift; sourceTree = "<group>"; };
 		E9547B822AFF33CB003FE19B /* ModelViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelViewBootcamp.swift; sourceTree = "<group>"; };
 		E9547B842AFF5BC6003FE19B /* ViewMOdel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMOdel.swift; sourceTree = "<group>"; };
+		E99AAEA62B0F0F9B002C4A4A /* Wifi_animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wifi_animation.swift; sourceTree = "<group>"; };
 		E99F554F2AF9387E00357910 /* TextFieldBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldBootCamp.swift; sourceTree = "<group>"; };
 		E9A1C41D2AED314900292D37 /* ButtonsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsBootcamp.swift; sourceTree = "<group>"; };
 		E9A1C4202AED379300292D37 /* StateBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateBootcamp.swift; sourceTree = "<group>"; };
@@ -113,6 +116,7 @@
 		E9C169102AFA4608008408FE /* toggleBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toggleBootcamp.swift; sourceTree = "<group>"; };
 		E9C169122AFA4FEA008408FE /* pickerToggleBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pickerToggleBootcamp.swift; sourceTree = "<group>"; };
 		E9C361522AF8D71300A0F7CB /* actionsheetBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = actionsheetBootcamp.swift; sourceTree = "<group>"; };
+		E9C75B442B11C0B20064C4F7 /* DragGestureBootcamp2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBootcamp2.swift; sourceTree = "<group>"; };
 		E9CBA0FE2AF36E5B00652FDA /* TernaryOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryOperators.swift; sourceTree = "<group>"; };
 		E9CBA1012AF3744700652FDA /* animationBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animationBootcamp.swift; sourceTree = "<group>"; };
 		E9CBB47F2AE921260080BD6D /* backgroundandoverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = backgroundandoverlay.swift; sourceTree = "<group>"; };
@@ -160,6 +164,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E99AAEA82B0F0FA3002C4A4A /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				E99AAEA62B0F0F9B002C4A4A /* Wifi_animation.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
 		E9BC40F72AE8BEF4001EB815 = {
 			isa = PBXGroup;
 			children = (
@@ -215,6 +227,8 @@
 				E9F7BB182B0671DC002D9B52 /* MagnificationGestureBootCamp.swift */,
 				E9F7BB1A2B0684A9002D9B52 /* RotationGestureBootCamp.swift */,
 				E9F7BB1C2B068C10002D9B52 /* DragGestureBootCamp.swift */,
+				E9C75B442B11C0B20064C4F7 /* DragGestureBootcamp2.swift */,
+				E99AAEA82B0F0FA3002C4A4A /* Animations */,
 				E9C0122C2AFBEFCE000A5B07 /* darkmodeBootcamp.swift */,
 				E9C0122E2AFBFCD5000A5B07 /* markups&documentationsBootCamp.swift */,
 				E9A35D582AFCEC2B00DE6335 /* onApperBootcamp.swift */,
@@ -372,8 +386,10 @@
 				E9CBB4802AE921260080BD6D /* backgroundandoverlay.swift in Sources */,
 				E9CDDF5A2AFB831E0009920F /* SliderBootcamp.swift in Sources */,
 				E9DFD6DB2B04BA01009D684F /* LongPressGestureBootcamp.swift in Sources */,
+				E99AAEA72B0F0F9B002C4A4A /* Wifi_animation.swift in Sources */,
 				E9FF0FB82AECFE7D00B0834B /* safeareaBootcamp.swift in Sources */,
 				E9CBA1022AF3744700652FDA /* animationBootcamp.swift in Sources */,
+				E9C75B452B11C0B20064C4F7 /* DragGestureBootcamp2.swift in Sources */,
 				E95396E82AF8B0EF003B4355 /* AlertBootCamp.swift in Sources */,
 				E9F542112AF3CB4D0095885C /* animationtimingBootcamp.swift in Sources */,
 				E9F542142AF3CFF80095885C /* transitionBootcamp.swift in Sources */,
