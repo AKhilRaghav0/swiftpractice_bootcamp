@@ -19,14 +19,16 @@ struct DragGestureBootCamp: View {
             }
             
             
-            RoundedRectangle(cornerRadius: 25)
+            Image("Coldplay")
                 .frame(width: 300, height: 500)
+            
                 .shadow(radius: 10, x: 0.0, y: 4)
-                .overlay(
-                    Image(systemName: "plus")
-                        .font(.largeTitle)
-                        .foregroundColor(.white)
-                )
+//                .blur(radius: <#T##CGFloat#>)
+//                .overlay(
+//                    Image(systemName: "plus")
+//                        .font(.largeTitle)
+//                        .foregroundColor(.white)
+//                )
                 .offset(offset)
                 .scaleEffect(getScaleAmount())
                 .rotationEffect(Angle(degrees: getRotationAmount()))
