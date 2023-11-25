@@ -38,7 +38,7 @@ struct DragGestureBootcamp2: View {
                                     currentDragoffsetY = 0
                                 } else if endingOffsetY != 0 && startingOffsetY  > 150 {
                                     endingOffsetY  = 0
-                                    currentDragoffsetY = 0
+                                    currentDragoffsetY = -288
                                     
                                 }
                                 
