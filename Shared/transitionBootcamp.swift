@@ -56,6 +56,8 @@ struct transitionBootcamp: View {
                             }) {
                                 Text("Just another label")
                                     .bold()
+                                    .padding()
+                                    .padding(.horizontal)
                                     .foregroundColor(.white)
 //                                   ÷ .frame(maxWidth: 160, maxHeight: 70)
                                     .background(

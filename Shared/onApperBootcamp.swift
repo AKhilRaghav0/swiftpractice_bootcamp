@@ -33,9 +33,11 @@ struct onApperBootcamp: View {
                         ForEach(0..<50){ _ in
                             Image("landscape")
                                 .resizable()
-                                .aspectRatio(contentMode: .fill)
-                                .frame(height: 200)
-                                .mask(RoundedRectangle(cornerRadius: 24)) // Use mask to clip the image
+                                .aspectRatio(contentMode: .fit)
+                                .clipShape(Rectangle())
+                                .cornerRadius(25)
+                                .frame(maxWidth: 530, maxHeight: 430)
+                                
                                 .overlay(
                                     RoundedRectangle(cornerRadius: 24)
                                         .stroke(Color.white, lineWidth: 2) // Add a white stroke around the image

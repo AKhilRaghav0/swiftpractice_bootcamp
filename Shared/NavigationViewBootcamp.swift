@@ -34,8 +34,11 @@ struct NavigationViewBootcamp: View {
             .navigationBarItems(
                 leading: HStack {
                     Image(systemName: "person.fill")
+                    
                     Image(systemName: "flame")
                         .foregroundColor(.red)
+                    Text("Day 2 Streak")
+                        .fontWeight(.semibold)
                 },
                                 trailing: NavigationLink(
                                     destination: LazyVStackBootcamp(),

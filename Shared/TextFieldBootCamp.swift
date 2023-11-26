@@ -53,7 +53,7 @@ struct TextFieldBootCamp: View {
 //                .shadow(color: .blue, radius: 10, x: 0.0, y: 4.0)
             }
             .padding()
-            .navigationTitle("TextFiled BootCamp")
+            .navigationTitle("TextField BootCamp")
         }
         
     }

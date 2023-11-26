@@ -23,7 +23,7 @@ struct DragGestureBootCamp: View {
                 .frame(width: 300, height: 500)
             
                 .shadow(radius: 10, x: 0.0, y: 4)
-//                .blur(radius: <#T##CGFloat#>)
+//                .blur(radius: <#T##CGFloat#>)5
 //                .overlay(
 //                    Image(systemName: "plus")
 //                        .font(.largeTitle)

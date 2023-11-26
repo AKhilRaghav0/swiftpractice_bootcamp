@@ -43,6 +43,7 @@ struct ButtonView: View {
             buttonColor = Color.black
             title = "Title Shifted"
             
+            
         }, label: {
             Text("Button")
                 .foregroundColor(.white)

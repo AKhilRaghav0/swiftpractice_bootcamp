@@ -16,15 +16,15 @@ struct ContextMenuBootcamp: View {
             
             Image(systemName: "house.fill")
                 .font(.title)
-            Text("SwiftFUl stuff")
+            Text("SwiftFul stuff")
                 .font(.headline)
-            Text("HOw to use Context Menu")
+            Text("How to use Context Menu")
                 .font(.subheadline)
         }
         
         .foregroundColor(foregroundColor)
         .padding(30)
-        .background(backgroundColor).cornerRadius(30)
+        .background(backgroundColor).cornerRadius(25)
         // thats how you can add any context Menu on any Element of an app, just as we use it over Instagram posts, by long pressing over it
         
         .contextMenu(menuItems: {

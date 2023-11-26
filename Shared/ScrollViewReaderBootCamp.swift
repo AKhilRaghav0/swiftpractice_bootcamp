@@ -10,6 +10,11 @@ import SwiftUI
 struct ScrollViewReaderBootCamp: View {
     var body: some View {
         ScrollView {
+            Button(action: {
+                
+            }, label: {
+                Text("Click here to goto animation #49")
+            })
             
             ScrollViewReader { proxy in
                 ForEach(0..<50) { index in
