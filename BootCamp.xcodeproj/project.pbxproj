@@ -60,6 +60,7 @@
 		E9D46D552AEADBF300D111C1 /* forEachBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D46D532AEADBF300D111C1 /* forEachBootcamp.swift */; };
 		E9DF12DD2AF50E1A006B47EE /* sheetBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DF12DC2AF50E1A006B47EE /* sheetBootcamp.swift */; };
 		E9DFD6DB2B04BA01009D684F /* LongPressGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DFD6DA2B04BA01009D684F /* LongPressGestureBootcamp.swift */; };
+		E9E0649B2B13237200F9F994 /* GeometryReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E0649A2B13237200F9F994 /* GeometryReaderBootcamp.swift */; };
 		E9E40E812AF0CA8300D0EB1E /* ExtractSubViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E40E802AF0CA8300D0EB1E /* ExtractSubViewBootcamp.swift */; };
 		E9E40E822AF0CA8300D0EB1E /* ExtractSubViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E40E802AF0CA8300D0EB1E /* ExtractSubViewBootcamp.swift */; };
 		E9E40E842AF0DFB200D0EB1E /* bindingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E40E832AF0DFB200D0EB1E /* bindingBootcamp.swift */; };
@@ -129,6 +130,7 @@
 		E9D46D532AEADBF300D111C1 /* forEachBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forEachBootcamp.swift; sourceTree = "<group>"; };
 		E9DF12DC2AF50E1A006B47EE /* sheetBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sheetBootcamp.swift; sourceTree = "<group>"; };
 		E9DFD6DA2B04BA01009D684F /* LongPressGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureBootcamp.swift; sourceTree = "<group>"; };
+		E9E0649A2B13237200F9F994 /* GeometryReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderBootcamp.swift; sourceTree = "<group>"; };
 		E9E40E802AF0CA8300D0EB1E /* ExtractSubViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractSubViewBootcamp.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		E9E40E832AF0DFB200D0EB1E /* bindingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bindingBootcamp.swift; sourceTree = "<group>"; };
 		E9E40E862AF0E64B00D0EB1E /* Conditionallogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conditionallogic.swift; sourceTree = "<group>"; };
@@ -207,7 +209,6 @@
 				E9E40E832AF0DFB200D0EB1E /* bindingBootcamp.swift */,
 				E9E40E862AF0E64B00D0EB1E /* Conditionallogic.swift */,
 				E9CBA0FE2AF36E5B00652FDA /* TernaryOperators.swift */,
-				E9CBA1012AF3744700652FDA /* animationBootcamp.swift */,
 				E9F542102AF3CB4D0095885C /* animationtimingBootcamp.swift */,
 				E9F542132AF3CFF80095885C /* transitionBootcamp.swift */,
 				E9DF12DC2AF50E1A006B47EE /* sheetBootcamp.swift */,
@@ -222,6 +223,7 @@
 				E9C169102AFA4608008408FE /* toggleBootcamp.swift */,
 				E9C169122AFA4FEA008408FE /* pickerToggleBootcamp.swift */,
 				E9FA37ED2AFB49E200339FA8 /* colorPickerBootcamp.swift */,
+				E9CBA1012AF3744700652FDA /* animationBootcamp.swift */,
 				E9FA37EF2AFB5D2A00339FA8 /* datePickerBootCamp.swift */,
 				E9FA37F12AFB741F00339FA8 /* stepperBootCamp.swift */,
 				E9CDDF592AFB831E0009920F /* SliderBootcamp.swift */,
@@ -231,6 +233,7 @@
 				E9F7BB1C2B068C10002D9B52 /* DragGestureBootCamp.swift */,
 				E9C75B442B11C0B20064C4F7 /* DragGestureBootcamp2.swift */,
 				E9C0E60C2B122E60004A36B5 /* ScrollViewReaderBootCamp.swift */,
+				E9E0649A2B13237200F9F994 /* GeometryReaderBootcamp.swift */,
 				E99AAEA82B0F0FA3002C4A4A /* Animations */,
 				E9C0122C2AFBEFCE000A5B07 /* darkmodeBootcamp.swift */,
 				E9C0122E2AFBFCD5000A5B07 /* markups&documentationsBootCamp.swift */,
@@ -406,6 +409,7 @@
 				E939381B2AEA639200006D6F /* spacerboocamp.swift in Sources */,
 				E9F7BB1B2B0684A9002D9B52 /* RotationGestureBootCamp.swift in Sources */,
 				E9A35D592AFCEC2B00DE6335 /* onApperBootcamp.swift in Sources */,
+				E9E0649B2B13237200F9F994 /* GeometryReaderBootcamp.swift in Sources */,
 				E9D0326A2AFBAF0C00913A88 /* tabBarViewPageViewBootcamp.swift in Sources */,
 				E9FA37F22AFB741F00339FA8 /* stepperBootCamp.swift in Sources */,
 				E9E40E812AF0CA8300D0EB1E /* ExtractSubViewBootcamp.swift in Sources */,
