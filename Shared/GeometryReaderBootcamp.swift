@@ -76,6 +76,24 @@ struct GeometryReaderBootcamp: View {
                     Image(systemName: "goforward.5")
                 }
                 .font(.largeTitle)
+                
+                Button(action: {}
+                       , label: {
+                    VStack {
+                        Text("Get Started")
+                            .font(.headline)
+                            .fontWeight(.semibold)
+                            .padding()
+                        .padding(.horizontal)
+                        Image(systemName: "arrow.right.circle")
+                            .font(.system(size: 40))
+                    }
+                    
+                })
+                
+                .buttonStyle(.borderedProminent)
+                .accentColor(.black)
+                
             }
         }
        
@@ -84,6 +102,11 @@ struct GeometryReaderBootcamp: View {
 
 struct GeometryReaderBootcamp_Previews: PreviewProvider {
     static var previews: some View {
-        GeometryReaderBootcamp()
+        Group {
+            GeometryReaderBootcamp()
+//            GeometryReaderBootcamp()
+//                .previewDevice("iPad Air (5th generation)")
+        }
+        
     }
 }
