@@ -68,7 +68,7 @@ struct GeometryReaderBootcamp: View {
                         .padding(.horizontal)
                 }
                 .padding()
-                HStack (spacing: 23){
+                HStack (spacing: 23){ 
                     Image(systemName: "gobackward.5")
                     Image(systemName: "backward.fill")
                     Image(systemName: "pause.fill")
