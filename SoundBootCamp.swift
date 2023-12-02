@@ -17,7 +17,7 @@ class SoundManager {
         guard   let url = URL(string: "") else { return }
         
         do {
-            player = try      AVAudioPlayer(contentsOf: url)
+            player = try AVAudioPlayer(contentsOf: url)
         } catch let error {
             print("Error playing sound. \(error.localizedDescription)")
         }
