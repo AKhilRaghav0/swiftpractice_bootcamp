@@ -29,6 +29,7 @@
 		E9A35D592AFCEC2B00DE6335 /* onApperBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A35D582AFCEC2B00DE6335 /* onApperBootcamp.swift */; };
 		E9A3FFCF2AF91BCB00A327DE /* ContextMenuBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A3FFCE2AF91BCB00A327DE /* ContextMenuBootcamp.swift */; };
 		E9A606D32AF517DD005BB0EE /* popOverBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A606D22AF517DC005BB0EE /* popOverBootcamp.swift */; };
+		E9AD992F2B3562F100FF1440 /* ArraysBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AD992E2B3562F100FF1440 /* ArraysBootcamp.swift */; };
 		E9AFAE762AFA90B7000AF0F5 /* dancingdots.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AFAE752AFA90B7000AF0F5 /* dancingdots.swift */; };
 		E9B1950F2AEC121300EFCD57 /* LazyVStackBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B1950E2AEC121200EFCD57 /* LazyVStackBootcamp.swift */; };
 		E9B195102AEC121300EFCD57 /* LazyVStackBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B1950E2AEC121200EFCD57 /* LazyVStackBootcamp.swift */; };
@@ -82,7 +83,6 @@
 		E9E875032AFCFAF20030FF7A /* ifletGUardBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E875022AFCFAF20030FF7A /* ifletGUardBootcamp.swift */; };
 		E9E875052AFD06650030FF7A /* TapGestureBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E875042AFD06650030FF7A /* TapGestureBootCamp.swift */; };
 		E9EA5C292B343CF100623BD5 /* ListTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EA5C282B343CF100623BD5 /* ListTest.swift */; };
-		E9EF12252B31C24300BA2AEB /* ArraysBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EF12242B31C24300BA2AEB /* ArraysBootcamp.swift */; };
 		E9F542112AF3CB4D0095885C /* animationtimingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F542102AF3CB4D0095885C /* animationtimingBootcamp.swift */; };
 		E9F542122AF3CB4D0095885C /* animationtimingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F542102AF3CB4D0095885C /* animationtimingBootcamp.swift */; };
 		E9F542142AF3CFF80095885C /* transitionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F542132AF3CFF80095885C /* transitionBootcamp.swift */; };
@@ -118,6 +118,7 @@
 		E9A35D582AFCEC2B00DE6335 /* onApperBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onApperBootcamp.swift; sourceTree = "<group>"; };
 		E9A3FFCE2AF91BCB00A327DE /* ContextMenuBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuBootcamp.swift; sourceTree = "<group>"; };
 		E9A606D22AF517DC005BB0EE /* popOverBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popOverBootcamp.swift; sourceTree = "<group>"; };
+		E9AD992E2B3562F100FF1440 /* ArraysBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArraysBootcamp.swift; sourceTree = "<group>"; };
 		E9AFAE752AFA90B7000AF0F5 /* dancingdots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dancingdots.swift; sourceTree = "<group>"; };
 		E9B1950E2AEC121200EFCD57 /* LazyVStackBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVStackBootcamp.swift; sourceTree = "<group>"; };
 		E9B239142B3305E9000D37DA /* SpeechSynth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechSynth.swift; sourceTree = "<group>"; };
@@ -160,7 +161,6 @@
 		E9E875022AFCFAF20030FF7A /* ifletGUardBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ifletGUardBootcamp.swift; sourceTree = "<group>"; };
 		E9E875042AFD06650030FF7A /* TapGestureBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureBootCamp.swift; sourceTree = "<group>"; };
 		E9EA5C282B343CF100623BD5 /* ListTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTest.swift; sourceTree = "<group>"; };
-		E9EF12242B31C24300BA2AEB /* ArraysBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArraysBootcamp.swift; sourceTree = "<group>"; };
 		E9F542102AF3CB4D0095885C /* animationtimingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animationtimingBootcamp.swift; sourceTree = "<group>"; };
 		E9F542132AF3CFF80095885C /* transitionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transitionBootcamp.swift; sourceTree = "<group>"; };
 		E9F71C152AF5F4A700BB9CB3 /* NavigationViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewBootcamp.swift; sourceTree = "<group>"; };
@@ -218,7 +218,6 @@
 			isa = PBXGroup;
 			children = (
 				E9BC40FD2AE8BEF6001EB815 /* BootCampApp.swift */,
-				E9EF12242B31C24300BA2AEB /* ArraysBootcamp.swift */,
 				E9B239142B3305E9000D37DA /* SpeechSynth.swift */,
 				E9BC40FE2AE8BEF6001EB815 /* colorGradient.swift */,
 				E90DA69B2AE8D5AA00D6BFA2 /* framesBootcamp.swift */,
@@ -280,6 +279,7 @@
 				E9AFAE752AFA90B7000AF0F5 /* dancingdots.swift */,
 				E9B239162B331113000D37DA /* Bookwork1.swift */,
 				E9EA5C282B343CF100623BD5 /* ListTest.swift */,
+				E9AD992E2B3562F100FF1440 /* ArraysBootcamp.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -402,6 +402,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9A606D32AF517DD005BB0EE /* popOverBootcamp.swift in Sources */,
+				E9AD992F2B3562F100FF1440 /* ArraysBootcamp.swift in Sources */,
 				E9FA37EE2AFB49E200339FA8 /* colorPickerBootcamp.swift in Sources */,
 				E9F7BB1D2B068C10002D9B52 /* DragGestureBootCamp.swift in Sources */,
 				E9CBA0FF2AF36E5B00652FDA /* TernaryOperators.swift in Sources */,
@@ -424,7 +425,6 @@
 				E9BE64E02AF8821500E07F48 /* ListBootcamp.swift in Sources */,
 				E9BC410F2AE8BF02001EB815 /* colorGradient.swift in Sources */,
 				E99F55502AF9387E00357910 /* TextFieldBootCamp.swift in Sources */,
-				E9EF12252B31C24300BA2AEB /* ArraysBootcamp.swift in Sources */,
 				E9AFAE762AFA90B7000AF0F5 /* dancingdots.swift in Sources */,
 				E9FA37F02AFB5D2A00339FA8 /* datePickerBootCamp.swift in Sources */,
 				E9FBBE5E2AEA8EDD009489A3 /* init_enums_Bootcamp.swift in Sources */,
