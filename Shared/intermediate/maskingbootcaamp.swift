@@ -1,9 +1,4 @@
-//
-//  maskingbootcaamp.swift
-//  BootCamp (iOS)
-//
-//  Created by Akhil on 30/11/23.
-//
+
 
 import SwiftUI
 

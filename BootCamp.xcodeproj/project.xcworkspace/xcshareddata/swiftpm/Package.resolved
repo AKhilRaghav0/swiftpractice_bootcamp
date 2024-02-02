@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "lottie-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/airbnb/lottie-ios",
+      "state" : {
+        "revision" : "f522990668c2f9132323a2e68d924c7dcb9130b4",
+        "version" : "4.4.0"
+      }
+    },
+    {
+      "identity" : "onboardingkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/JamesSedlacek/OnboardingKit.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "cd8061979ca70afd07c776d52af54fa853331d0d"
+      }
+    },
+    {
+      "identity" : "vortex",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/twostraws/Vortex",
+      "state" : {
+        "revision" : "3eabf0572fd37e943be64b9d2589f97f1999cb26",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 2
+}

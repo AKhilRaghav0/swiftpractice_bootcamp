@@ -21,7 +21,7 @@ struct SliderBootcamp: View {
 //                "\(sliderValue)"
 
 //            )
-//            Slider(value: $sliderValue)
+            Slider(value: $sliderValue)
 //            Slider(value: $sliderValue, in: 1...5)
             Slider(value: $sliderValue, in: 1...5, step: 0.5)
                 .accentColor(.red)

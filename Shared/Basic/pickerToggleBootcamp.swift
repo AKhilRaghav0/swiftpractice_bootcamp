@@ -34,7 +34,7 @@ struct pickerToggleBootcamp: View {
                        }
                 
             })
-            .font(.headline)
+            .font(.title)
             .foregroundColor(.white)
             .background(Color.gray.opacity(0.3))
             
